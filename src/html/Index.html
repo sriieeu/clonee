@@ -1,0 +1,33 @@
+
+
+<html>
+    <head>
+        <title> Hi</title>
+        
+    </head>
+
+    <body>
+        <script>
+            product2={
+                name: "sri",
+                age:21,
+                class:{
+                    college : 'VIT',
+                    year:2022
+                }
+            };
+            
+            console.log(product2.name);
+            const json1=JSON.stringify(product2);
+            console.log(JSON.stringify(product2));
+            console.log(json1);
+            localStorage.setItem('message', JSON.stringify(product2));
+            console.log(JSON.parse((localStorage.getItem('message'))));
+            console.log(localStorage.removeItem('message'));
+            
+            
+            console.log("Hi".length);
+
+        </script>
+    </body>
+</html>

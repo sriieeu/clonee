@@ -1,0 +1,110 @@
+ <!DOCTYPE html>
+ <html>
+    <head>
+
+    <title> Rock Paper Scissor</title>
+    </head>
+    <body>
+
+        <p>Rock paper Scissor</p>
+        <button class="Rock-button", onclick=" const number =Math.random();
+        let coumputermove='';
+        let result='';
+        if(number>=0 && number<1/3){
+             coumputermove='Rock';
+        }
+        else if(number>=1/3 && number<2/3 ){
+             coumputermove='Scissor';
+        }
+        else{
+             coumputermove='Paper';
+        }
+       
+        if(coumputermove==='Rock'){
+            result='tied';
+        }
+        else if(coumputermove==='Paper'){
+            result='lose';
+        }
+        else if(coumputermove==='Scissor'){
+            result='Win';
+    } 
+    alert(`You choose Rock. Computer choose ${coumputermove} . You ${result}`)">
+     Rock  </button>
+     <style>
+        .Rock-button{
+background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 40px 20px;
+  padding: 15px 32px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+        
+     </style>
+     
+    
+        <button  onclick=" 
+        const number2 =Math.random();
+            let coumputermove2='';
+            if(number2>=0 && number2<1/3){
+                 coumputermove2='Rock';
+            }
+            else if(number2>=1/3 && number2<2/3 ){
+                 coumputermove2='Scissor';
+            }
+            else{
+                 coumputermove2='Paper';
+            }
+            let result2=' ';
+            if(coumputermove2==='Paper'){
+                result2='tied';
+            }
+            else if(coumputermove2==='Scissor'){
+                result2='Win';
+        } 
+            else if(coumputermove2==='Rock'){
+                result2='lose';
+            }
+          
+        alert(`You choose paper. Computer choose ${coumputermove2} . You ${result2}`)"
+        >Paper </button>
+
+        
+
+        <button  onclick=" const number1 =Math.random();
+            let coumputermove1='';
+            if(number1>=0 && number1<1/3){
+                 coumputermove1='Rock';
+            }
+            else if(number1>=1/3 && number1<2/3 ){
+                 coumputermove1='Scissor';
+            }
+            else{
+                 coumputermove1='Paper';
+            }
+            let result1=' ';
+            if(coumputermove1==='Scissor'){
+                result1='tied';
+            }
+            else if(coumputermove1==='Rock'){
+                result1='lose';
+            }
+            else if(coumputermove1==='Paper'){
+                result1='Win';
+        } 
+        alert(`You choose Scissor  Computer choose ${coumputermove1} . You ${result1}`)"
+        >Scissor </button>
+    
+        <script>
+            
+        </script>
+    </body>
+ </html>
